@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Sadeem Alghamdi | Software Engineering Student</title>
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+<!-- HEADER -->
+<header class="header">
+    <nav class="nav container">
+        <a href="#home" class="logo">SA</a>
+
+        <button class="menu-toggle" id="menuToggle">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="nav-menu" id="navMenu">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#contact" class="nav-link">Contact</a>
+
+            <button class="theme-btn" id="themeToggle">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="greeting" id="greeting">Hello!</span>
+                <h1>I'm <span class="highlight">Sadeem Alghamdi</span></h1>
+                <p class="subtitle">Junior Software Engineering Student at KFUPM</p>
+                <p class="description">
+                    I build practical systems with clean structure, strong logic,
+                    and a focus on usability.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a junior Software Engineering student at KFUPM.
+                        I enjoy turning academic concepts into working systems
+                        with clean code and thoughtful design.
+                    </p>
+                </div>
+
+                <div class="about-details">
+                    <div class="detail-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Sadeem.g@icloud.com</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-brands fa-linkedin"></i>
+                        <a href="https://www.linkedin.com/feed/" target="_blank">
+                            Sadeem Alghamdi
+                        </a>
+                    </div>
+                    <div class="detail-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <span>KFUPM, Saudi Arabia</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-highlight">
+                <div class="skill-item">
+                    <i class="fa-solid fa-lightbulb"></i>
+                    <p>Problem Solving</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-code"></i>
+                    <p>Clean Code</p>
+                </div>
+                <div class="skill-item">
+                    <i class="fa-solid fa-users"></i>
+                    <p>Teamwork</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h3>Horse Racing Database</h3>
+                    <p>
+                        Relational database system using SQL for managing horses,
+                        races, and results.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">SQL</span>
+                        <span class="tag">Database Design</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3>KFUPM Map Tool</h3>
+                    <p>
+                        Calculates distance between classes using building locations
+                        on campus.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Java</span>
+                        <span class="tag">Data Structures</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-icon">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3>Course Tutoring App</h3>
+                    <p>
+                        Platform concept to organize tutoring sessions for students
+                        and improve learning.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">Web Design</span>
+                        <span class="tag">UX</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">HTML/CSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Soft Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Teamwork</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="achievement">
+                <div class="achievement-icon">🥈</div>
+                <div class="achievement-text">
+                    <h3>2nd Place - Public Speaking Contest</h3>
+                    <p>Islamic and Arabic Studies Department, KFUPM</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's Connect!</h3>
+                    <p>
+                        Feel free to reach out if you'd like to discuss projects,
+                        opportunities, or just say hello.
+                    </p>
+
+                    <div class="contact-links">
+                        <a href="mailto:Sadeem.g@icloud.com" class="contact-link">
+                            <i class="fa-solid fa-envelope"></i>
+                            Sadeem.g@icloud.com
+                        </a>
+                        <a href="https://www.linkedin.com/feed/" target="_blank" class="contact-link">
+                            <i class="fa-brands fa-linkedin"></i>
+                            LinkedIn Profile
+                        </a>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+
+                    <p id="formMessage" class="form-message"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+        <p>&copy; <span id="year"></span> Sadeem Alghamdi. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+</body>
+</html>

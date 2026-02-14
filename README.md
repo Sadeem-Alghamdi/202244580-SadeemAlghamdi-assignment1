@@ -3,7 +3,7 @@
 **Student:** Sadeem Ahmed Alghamdi  
 **Student ID:** 202244580  
 **Course:** SWE 363 - Web Engineering and Development  
-**Instructor:** Dr. Khadijah Alsafwan
+**Instructor:** Dr. Khadijah Alsafwan\
 **Due Date:** Week 5  
 
 

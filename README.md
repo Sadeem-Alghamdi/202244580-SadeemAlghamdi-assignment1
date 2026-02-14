@@ -1,16 +1,5 @@
 # 📝 README
 
-
-**Student ID:** 202244580
-
-**Student Name:** Sadeem Ahmed Alghamdi
-
-**Course:** SWE363
-
-→  GitHub repo URL:
-https://github.com/Sadeem-Alghamdi/202244580-SadeemAlghamdi-assignment1/tree/main
----
-
 **Student:** Sadeem Ahmed Alghamdi  
 **Student ID:** 202244580  
 **Course:** SWE 363 - Web Engineering and Development  

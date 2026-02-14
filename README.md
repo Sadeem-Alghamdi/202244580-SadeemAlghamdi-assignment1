@@ -1,17 +1,25 @@
-# 202244580-SadeemAlghamdi-assignment1
+# 📝 README
 
-# Assignment 1 – Personal Portfolio (Foundation & AI Integration)
 
-A responsive personal portfolio website built with **HTML, CSS, and JavaScript** as the foundation of my professional portfolio.
+**Student ID:** 202244580
 
-## Features
-- **Responsive layout** (desktop/tablet/mobile) using CSS Grid/Flexbox
-- **Sections:** About, Projects, Skills, Winnings, Contact
-- **Interactivity (JavaScript):**
-    - Greeting message based on time of day
-    - Dark/Light theme toggle (saved in localStorage)
-    - Smooth scrolling with a sticky header offset
-    - Contact form validation + user feedback (no backend)
+**Student Name:** Sadeem Ahmed Alghamdi
+
+**Course:** SWE363
+
+→  GitHub repo URL:
+https://github.com/Sadeem-Alghamdi/202244580-SadeemAlghamdi-assignment1/tree/main
+---
+
+**Student:** Sadeem Ahmed Alghamdi  
+**Student ID:** 202244580  
+**Course:** SWE 363 - Web Engineering and Development  
+**Instructor:** Dr. Khadijah Alsafwan
+**Due Date:** Week 5  
+
+
+**GitHub Repository:** https://github.com/sadeemalghamdi/202012345-sadeemalghamdi-assignment1
+
 
 ## Project Structure
 ```text
@@ -23,7 +31,6 @@ id-name-assignment1/
 ├── js/
 │   └── script.js
 ├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-└── .gitignore
+    ├── ai-usage-report.md
+    └── technical-documentation.md
  

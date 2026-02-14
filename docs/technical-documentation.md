@@ -125,7 +125,7 @@ contactForm.addEventListener('submit', function(e) {
   }
 });
 ```
-
+ 
 **How it works:**
 - Prevents form submission
 - Gets values from form fields

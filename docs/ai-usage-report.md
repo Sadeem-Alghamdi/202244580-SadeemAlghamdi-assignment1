@@ -126,7 +126,7 @@ After getting my basic code working and understanding the fundamentals, I wanted
     - This balance maximized learning while achieving good results
 
 
-
+ 
 ### Summary of AI Usage
 
 **Total AI Interaction:**
